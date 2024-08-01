@@ -1,1 +1,1 @@
-# greenhouse-web-automation
+# base-qa-automation
