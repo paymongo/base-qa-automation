@@ -1,4 +1,4 @@
-# base-qa-automation
+# Base QA Automation
 
 # About
 
