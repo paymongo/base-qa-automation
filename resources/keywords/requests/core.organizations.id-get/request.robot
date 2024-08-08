@@ -6,6 +6,7 @@ Resource    ../../libraries.robot
 Resource    ../../../tests/resource_collection.robot
 
 *** Keywords ***
+# Sample request keyword
 get organization is requested
     [Arguments]    ${auth}=${${env}_LIVE_SUPERUSER}    ${organization_id}=${organization_id}
     ${auth}=    create list    ${auth}    ""

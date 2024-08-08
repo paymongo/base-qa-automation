@@ -1,11 +1,12 @@
 # Note: For front-end automation only.
 # Each page should have a separate page actions file (Ex. login page, sign up page, etc.)
-# Only import the corresponding page objects file
 
 *** Settings ***
+# Only import the corresponding page objects file
 Resource    ../page_objects/loginPageObjects.robot
 
 *** Keywords ***
+# Sample page actions keywords
 a user is in paymongo dashboard login page
     go to paymongo dashboard
     
