@@ -35,11 +35,11 @@ object livemode should be
     run keyword if    ${variable} == False    should be equal    ${boolean}    False
 
 response field length should be
-	[Arguments]    ${json_path}    ${expected_value}
-	${expected_value}=    convert to integer    ${expected_value}
-	${response_list}=    get value from response via json path    ${json_path}
-	${actual_value}=    get length    ${response_list}
-	should be equal    ${expected_value}    ${actual_value}
+    [Arguments]    ${json_path}    ${expected_value}
+    ${expected_value}=    convert to integer    ${expected_value}
+    ${response_list}=    get value from response via json path    ${json_path}
+    ${actual_value}=    get length    ${response_list}
+    should be equal    ${expected_value}    ${actual_value}
 
 browser url should be
     [Arguments]    ${expected_value}

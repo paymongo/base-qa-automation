@@ -15,6 +15,7 @@ Request should return child organization's documents WHEN auth and child_organiz
     GIVEN a child organization with all documents
     WHEN get child merchant documents is called
     THEN response status code should be    200
+    AND schema should be valid versus response    get-child-merchant-documents_schema.json
 
 Request should NOT return child organization's documents WHEN auth is blank
     GIVEN a child organization with all documents
