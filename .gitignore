@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+log.html
+output.xml
+report.html
+geckodriver.log
+.vscode/settings.json
+.editorconfig
+base64code.cpython-39.pyc
+testResult.xml
+__pycache__/
+*.jpg
+*.png

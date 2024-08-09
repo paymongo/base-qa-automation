@@ -1,0 +1,336 @@
+{
+    "required": [
+        "data"
+    ],
+    "properties": {
+        "data": {
+            "required": [
+                "id",
+                "type",
+                "attributes"
+            ],
+            "properties": {
+                "id": {
+                    "$id": "#/properties/data/properties/id",
+                    "type": "string"
+                },
+                "type": {
+                    "$id": "#/properties/data/properties/type",
+                    "type": "string"
+                },
+                "attributes": {
+                    "required": [
+                        "activation_status",
+                        "adverse_news_flag",
+                        "compliance_flags_override",
+                        "enabled",
+                        "pk_live",
+                        "pk_test",
+                        "sk_live",
+                        "sk_test",
+                        "signed_dsa",
+                        "signed_moa",
+                        "statement_descriptor",
+                        "supported_business_types",
+                        "time_zone",
+                        "account",
+                        "accepted_terms_and_conditions",
+                        "activated",
+                        "address",
+                        "business",
+                        "bank",
+                        "risk",
+                        "activated_at",
+                        "created_at",
+                        "declined_at",
+                        "terms_and_conditions_consented_at",
+                        "under_review_at",
+                        "updated_at"
+                    ],
+                    "properties": {
+                        "activation_status": {
+                            "$id": "#/properties/data/properties/attributes/properties/activation_status",
+                            "type": "string"
+                        },
+                        "adverse_news_flag": {
+                            "$id": "#/properties/data/properties/attributes/properties/adverse_news_flag",
+                            "type": "boolean"
+                        },
+                        "compliance_flags_override": {
+                            "$id": "#/properties/data/properties/attributes/properties/compliance_flags_override",
+                            "type": "string"
+                        },
+                        "enabled": {
+                            "$id": "#/properties/data/properties/attributes/properties/enabled",
+                            "type": "boolean"
+                        },
+                        "pk_live": {
+                            "$id": "#/properties/data/properties/attributes/properties/pk_live",
+                            "type": "string"
+                        },
+                        "pk_test": {
+                            "$id": "#/properties/data/properties/attributes/properties/pk_test",
+                            "type": "string"
+                        },
+                        "sk_live": {
+                            "$id": "#/properties/data/properties/attributes/properties/sk_live",
+                            "type": "string"
+                        },
+                        "sk_test": {
+                            "$id": "#/properties/data/properties/attributes/properties/sk_test",
+                            "type": "string"
+                        },
+                        "signed_dsa": {
+                            "$id": "#/properties/data/properties/attributes/properties/signed_dsa",
+                            "type": "boolean"
+                        },
+                        "signed_moa": {
+                            "$id": "#/properties/data/properties/attributes/properties/signed_moa",
+                            "type": "boolean"
+                        },
+                        "statement_descriptor": {
+                            "$id": "#/properties/data/properties/attributes/properties/statement_descriptor",
+                            "type": ["string","null"]
+                        },
+                        "supported_business_types": {
+                            "$id": "#/properties/data/properties/attributes/properties/supported_business_types",
+                            "type": ["array","object"]
+                        },
+                        "time_zone": {
+                            "$id": "#/properties/data/properties/attributes/properties/time_zone",
+                            "type": "string"
+                        },
+                        "vat_type": {
+                            "$id": "#/properties/data/properties/attributes/properties/vat_type",
+                            "type": ["string","null"]
+                        },
+                        "account": {
+                            "required": [
+                                "business_age",
+                                "business_size",
+                                "customer_service_number",
+                                "estimated_monthly_volume",
+                                "tin_number",
+                                "trade_name",
+                                "type"
+                            ],
+                            "properties": {
+                                "business_age": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/business_age",
+                                    "type": ["string","null"]
+                                },
+                                "business_size": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/business_size",
+                                    "type": ["string","null"]
+                                },
+                                "customer_service_number": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/customer_service_number",
+                                    "type": ["string","null"]
+                                },
+                                "estimated_monthly_volume": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/estimated_monthly_volume",
+                                    "type": ["string","null"]
+                                },
+                                "legal_name": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/legal_name",
+                                    "type": ["string","null"]
+                                },
+                                "tin_number": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/tin_number",
+                                    "type": ["string","null"]
+                                },
+                                "trade_name": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/trade_name",
+                                    "type": ["string","null"]
+                                },
+                                "type": {
+                                    "$id": "#/properties/data/properties/attributes/properties/account/properties/type",
+                                    "type": ["string","null"]
+                                }
+                            },
+                            "$id": "#/properties/data/properties/attributes/properties/account",
+                            "type": "object"
+                        },
+                        "accepted_terms_and_conditions": {
+                            "$id": "#/properties/data/properties/attributes/properties/accepted_terms_and_conditions",
+                            "type": ["boolean","null"]
+                        },
+                        "activated": {
+                            "$id": "#/properties/data/properties/attributes/properties/activated",
+                            "type": "boolean"
+                        },
+                        "address": {
+                            "required": [
+                                "city",
+                                "line1",
+                                "line2",
+                                "postal_code",
+                                "state"
+                            ],
+                            "properties": {
+                                "city": {
+                                    "$id": "#/properties/data/properties/attributes/properties/address/properties/city",
+                                    "type": ["string","null"]
+                                },
+                                "line1": {
+                                    "$id": "#/properties/data/properties/attributes/properties/address/properties/line1",
+                                    "type": ["string","null"]
+                                },
+                                "line2": {
+                                    "$id": "#/properties/data/properties/attributes/properties/address/properties/line2",
+                                    "type": ["string","null"]
+                                },
+                                "postal_code": {
+                                    "$id": "#/properties/data/properties/attributes/properties/address/properties/postal_code",
+                                    "type": ["string","null"]
+                                },
+                                "state": {
+                                    "$id": "#/properties/data/properties/attributes/properties/address/properties/state",
+                                    "type": ["string","null"]
+                                }
+                            },
+                            "$id": "#/properties/data/properties/attributes/properties/address",
+                            "type": "object"
+                        },
+                        "business": {
+                            "required": [
+                                "brick_and_mortar",
+                                "category",
+                                "category_text",
+                                "description",
+                                "foreign_ownership",
+                                "handle",
+                                "website_under_construction",
+                                "website",
+                                "ofac_sanctions_list",
+                                "processor_type",
+                                "un_sanctions_list"
+                            ],
+                            "properties": {
+                                "brick_and_mortar": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/brick_and_mortar",
+                                    "type": ["boolean","null"]
+                                },
+                                "category": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/category",
+                                    "type": ["string","null"]
+                                },
+                                "category_text": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/category_text",
+                                    "type": ["string","null"]
+                                },
+                                "description": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/description",
+                                    "type": ["string","null"]
+                                },
+                                "foreign_ownership": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/foreign_ownership",
+                                    "type": ["boolean","null"]
+                                },
+                                "handle": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/handle",
+                                    "type": "string"
+                                },
+                                "website_under_construction": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/website_under_construction",
+                                    "type": ["boolean","null"]
+                                },
+                                "website": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/website",
+                                    "type": ["string","null"]
+                                },
+                                "ofac_sanctions_list": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/ofac_sanctions_list",
+                                    "type": ["null","boolean"]
+                                },
+                                "processor_type": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/processor_type",
+                                    "type": ["null","string"]
+                                },
+                                "un_sanctions_list": {
+                                    "$id": "#/properties/data/properties/attributes/properties/business/properties/un_sanctions_list",
+                                    "type": ["null","boolean"]
+                                }
+                            },
+                            "$id": "#/properties/data/properties/attributes/properties/business",
+                            "type": "object"
+                        },
+                        "bank": {
+                            "required": [
+                                "account_name",
+                                "account_number",
+                                "id",
+                                "name"
+                            ],
+                            "properties": {
+                                "account_name": {
+                                    "$id": "#/properties/data/properties/attributes/properties/bank/properties/account_name",
+                                    "type": ["string","null"]
+                                },
+                                "account_number": {
+                                    "$id": "#/properties/data/properties/attributes/properties/bank/properties/account_number",
+                                    "type": ["string","null"]
+                                },
+                                "id": {
+                                    "$id": "#/properties/data/properties/attributes/properties/bank/properties/id",
+                                    "type": ["string","null"]
+                                },
+                                "name": {
+                                    "$id": "#/properties/data/properties/attributes/properties/bank/properties/name",
+                                    "type": ["string","null"]
+                                }
+                            },
+                            "$id": "#/properties/data/properties/attributes/properties/bank",
+                            "type": "object"
+                        },
+                        "risk": {
+                            "required": [
+                                "score"
+                            ],
+                            "properties": {
+                                "score": {
+                                    "$id": "#/properties/data/properties/attributes/properties/risk/properties/score",
+                                    "type": ["integer","null"]
+                                }
+                            },
+                            "$id": "#/properties/data/properties/attributes/properties/risk",
+                            "type": "object"
+                        },
+                        "activated_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/activated_at",
+                            "type": ["integer","null"]
+                        },
+                        "created_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/created_at",
+                            "type": "integer"
+                        },
+                        "declined_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/declined_at",
+                            "type": ["integer","null"]
+                        },
+                        "terms_and_conditions_consented_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/terms_and_conditions_consented_at",
+                            "type": ["integer","null"]
+                        },
+                        "under_review_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/under_review_at",
+                            "type": ["integer","null"]
+                        },
+                        "updated_at": {
+                            "$id": "#/properties/data/properties/attributes/properties/updated_at",
+                            "type": "integer"
+                        }
+                    },
+                    "$id": "#/properties/data/properties/attributes",
+                    "type": "object"
+                }
+            },
+            "$id": "#/properties/data",
+            "type": "object"
+        }
+    },
+    "$id": "http://example.org/root.json#",
+    "type": "object",
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#"
+}
