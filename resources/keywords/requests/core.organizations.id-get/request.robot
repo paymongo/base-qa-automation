@@ -11,7 +11,7 @@ get organization is requested
     [Arguments]    ${auth}=${${env}_LIVE_SUPERUSER}    ${organization_id}=${organization_id}
     ${auth}=    create list    ${auth}    ""
     @{query_param_list}    create list
-	${query_parameters}    set variable    ${EMPTY}
+    ${query_parameters}    set variable    ${EMPTY}
     ${headers}    create dictionary    Authorization=Basic
     run keyword if    "${organization_id}" != "None"    append to list    ${query_param_list}    ${organization_id}
     FOR    ${param}    IN    @{query_param_list}
